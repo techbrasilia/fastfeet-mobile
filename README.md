@@ -5,3 +5,5 @@ Este projeto é o módulo mobile do desafio do curso Bootcamp - GoStack da Rocke
 #Instalação das dependências através do Yarn.
 #Iniciar o módulo back-end antes deste.
 #Ter um emulador android
+
+#Aluno: Fábio Rodrigues de Carvalho
