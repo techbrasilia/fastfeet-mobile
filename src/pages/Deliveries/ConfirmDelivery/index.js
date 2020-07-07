@@ -26,12 +26,6 @@ const ConfirmDelivery = (props) => {
 
   const optionsImagePicker = {
     title: 'Selecione ou fotografe a assinatura.',
-    // customButtons: [
-    //   {
-    //     name: "fb",
-    //     title: "Selecione uma imagem"
-    //   }
-    // ]
   };
 
   function imageCallback(data) {
@@ -39,11 +33,9 @@ const ConfirmDelivery = (props) => {
       return;
     }
     if (!data.uri) {
-      console.tron.log('uri não existe');
       return;
     }
 
-    console.tron.log('image', data);
     setSignature(data);
   }
 

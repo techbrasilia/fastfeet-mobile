@@ -70,7 +70,11 @@ const Dashboard = ({ navigation }) => {
     <Container>
       <Header>
         {deliveryman && deliveryman.avatar ? (
-          <Avatar source={{ uri: deliveryman.avatar.url }} />
+          <Avatar
+            source={{
+              uri: deliveryman.avatar.url.replace('localhost', '10.0.2.2'),
+            }}
+          />
         ) : (
           <AvatarInitials>
             <TextInitials>{iniciais}</TextInitials>
